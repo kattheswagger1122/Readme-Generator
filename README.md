@@ -1,5 +1,16 @@
 # 09 Node.js: Professional README Generator
 
+## Review
+
+You are required to submit the following for review:
+
+* A walkthrough video demonstrating the functionality of the application.
+
+* A sample README.md file for a project repository is generated using your application.
+
+* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+
 When creating an open-source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions & m dash; this last part increases the likelihood that other developers will contribute to the success of the project. 
 
 You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
@@ -56,13 +67,3 @@ Here are some guidelines to help you get started:
 
 * Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand its purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
 
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository is generated using your application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.

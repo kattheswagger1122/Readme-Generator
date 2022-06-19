@@ -10,17 +10,17 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?'
+        message: 'Please enter your GitHub username'
     },
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?'
+        message: 'Please enter your email address'
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is your project\'s name?'
+        message: 'Please enter your the title of your project'
     },
     {
         type: 'input',
@@ -59,21 +59,22 @@ const questions = [
 
 // TODO: Create a function to write README file
 // fs application
+// If there is an error it will return an error
+// If there is no error, will utput a message to indicate the markdown file has been successfully created.
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        // If there is an error, will report an error.
-        // If there is no error, will utput a message to indicate the markdown file has been successfully created.
         err ? console.error(err) : console.log(`Your ${data.title} README.md file has been created.`)
     );
 }
+
 // TODO: Create a function to initialize app
+// Asks the user questions to complete the markedown file
+// Displays answers to questions
+// Creates the markdown file based on the answers provided
 function init() {
-    // Asks the user questions to complete the markedown file
     inquirer.prompt(questions).then((answers) => {
         const data = generateMarkdown(answers);
-        // Displays answers to questions
         console.log(answers);
-        // Creates the markdown file based on the answers provided
         writeToFile('README.md', data);
     })
 }
