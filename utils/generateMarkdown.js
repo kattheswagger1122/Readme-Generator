@@ -1,15 +1,38 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  
+  if (license !== "none") {
+      return `![](https://img.shields.io/badge/license-${license}-blue)`
+  }
+  return ``
 }
+
+
+function renderLicenseLink(license) {
+  if (license !== "none") {
+  return `To read the license in its entirety, click here: [${license}](./LICENSE)`
+  } else {
+      return ``
+  }
+}
+
+
+function renderLicenseSection(license) {
+  if (license !== "none") {
+    return `Content in this project is governed under the ${license} License.`
+  } else {
+      return ``
+  }
+}
+
 
 // TODO: Create a function to generate markdown for README
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ![License](https://img.shields.io/badge/License-${data.license}-blue)
-  
+
+
+  # ${data.title} ${renderLicenseBadge(data.license)}
 
   ##Table of Contents
   * [Description](#description)
@@ -39,11 +62,11 @@ function generateMarkdown(data) {
   <a name='contributefaq'></a>
   ## Contributing to This Repo
   ${data.contributefaq}
-  
-  
-<a name='license'></a>
-## License
-${data.contributefaq}
+
+  <a name='license'></a>
+  ## License
+  ${renderLicenseSection(data.license)} 
+  ${renderLicenseLink(data.license)}
 
 
 <a name='questions'></a>

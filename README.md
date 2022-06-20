@@ -1,6 +1,7 @@
-# readme stuff
-  ![License](https://img.shields.io/badge/License-APACHE 2.0-blue)
-  
+# readme2.0
+
+
+  # readme2.0 ![](https://img.shields.io/badge/license-GPL 3.0-blue)
 
   ##Table of Contents
   * [Description](#description)
@@ -13,11 +14,11 @@
   
   <a name='description'></a>
   ## Description
-  good stuff
+  easy proj
   
   <a name='usefaq'></a>
   ## Usage
-  very pro
+  
   
   <a name='install'></a>
   ## Installation
@@ -29,15 +30,15 @@
 
   <a name='contributefaq'></a>
   ## Contributing to This Repo
-  it's a me KAT
   
-  
-<a name='license'></a>
-## License
-it's a me KAT
+
+  <a name='license'></a>
+  ## License
+  Content in this project is governed under the GPL 3.0 License. 
+  To read the license in its entirety, click here: [GPL 3.0](./LICENSE)
 
 
 <a name='questions'></a>
 ## Questions? Please contact me here:
-For additional questions, please contact [kat](https://github.com/kat) at kat's@email
+For additional questions, please contact [kat](https://github.com/kat) at katgmail
 
