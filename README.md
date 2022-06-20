@@ -7,28 +7,20 @@
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project
 https://github.com/kattheswagger1122/Readme-Generator.git
 
+## Screenshots
+ ![screenshots of the readme genereator](./assets/img/Screen%20Shot%202022-06-20%20at%2012.05.40%20AM.png)
 
+
+## License
   # ![](https://img.shields.io/badge/license-MIT-blue)
-
-  ##Table of Contents
-  * [User Story](userstory)
-  * [Acceptance Criteria](#acceptCri)
-  * [Description](#description)
-  * [Usage](#usefaq)
-  * [Installation](#install)
-  * [Testing](#test)
-  * [License](#license)
-  * [Contributing to This Repo](#contributefaq)
-  * [Questions / Contact Details](#questions)
   
-<a name='userstory'></a>
 ## User Story
 ```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
  ```
- <a name='#acceptCri'></a>
+
 ## Acceptance Criteria
 ```
 GIVEN a command-line application that accepts user input
@@ -47,6 +39,15 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+## Table of Contents for readme generator
+  * [Description](#description)
+  * [Usage](#usefaq)
+  * [Installation](#install)
+  * [Testing](#test)
+  * [License](#license)
+  * [Contributing to This Repo](#contributefaq)
+  * [Questions / Contact Details](#questions)
 
   <a name='description'></a>
   ## Description
@@ -79,7 +80,5 @@ THEN I am taken to the corresponding section of the README
 ## Questions? Please contact me here:
 For additional questions, please contact [kattheswagger1122](https://github.com/kattheswagger1122) at katrina112298@gmail.com
 
-## Screenshots
- ![screenshots of the readme genereator](./assets/img/Screen%20Shot%202022-06-20%20at%2012.05.40%20AM.png)
 
 
