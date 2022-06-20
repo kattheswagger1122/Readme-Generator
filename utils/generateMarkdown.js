@@ -32,7 +32,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 
-  # ${data.title} ${renderLicenseBadge(data.license)}
+  # ${renderLicenseBadge(data.license)}
 
   ##Table of Contents
   * [Description](#description)

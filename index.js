@@ -48,7 +48,7 @@ const questions = [
     {
         type: 'input',
         name: 'usefaq',
-        message: 'What does the user need to know about using the repo?'
+        message: 'How do you use your project or app? please list how to run it here.'
     },
     {
         type: 'input',
@@ -75,7 +75,7 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
         const data = generateMarkdown(answers);
         console.log(answers);
-        writeToFile('README_SAMPLE.md', data);
+        writeToFile('README.md', data);
     })
 }
 
