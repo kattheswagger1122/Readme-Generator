@@ -1,26 +1,25 @@
 # professional-readme-generator
 ## Demo
-
+ 
 * A walkthrough video demonstrating the functionality of the application.
 [click here for video demo](https://youtu.be/PS5ocVcxVOM)
-
+ 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project
 https://github.com/kattheswagger1122/Readme-Generator.git
-
+ 
 ## Screenshots
- ![screenshots of the readme genereator](./assets/img/Screen%20Shot%202022-06-20%20at%2012.05.40%20AM.png)
-
-
+![screenshots of the readme genereator](./assets/img/Screen%20Shot%202022-06-20%20at%2012.05.40%20AM.png)
+ 
+ 
 ## License
-  # ![](https://img.shields.io/badge/license-MIT-blue)
-  
-## User Story
+ # ![](https://img.shields.io/badge/license-MIT-blue)
+ ## User Story
 ```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
- ```
-
+```
+ 
 ## Acceptance Criteria
 ```
 GIVEN a command-line application that accepts user input
@@ -39,46 +38,46 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
-
+ 
 ## Table of Contents for readme generator
-  * [Description](#description)
-  * [Usage](#usefaq)
-  * [Installation](#install)
-  * [Testing](#test)
-  * [License](#license)
-  * [Contributing to This Repo](#contributefaq)
-  * [Questions / Contact Details](#questions)
-
-  <a name='description'></a>
-  ## Description
-  this is an application to generate a professional readme
-  
+ * [Description](#description)
+ * [Usage](#usefaq)
+ * [Installation](#install)
+ * [Testing](#test)
+ * [License](#license)
+ * [Contributing to This Repo](#contributefaq)
+ * [Questions / Contact Details](#questions)
+ 
+ <a name='description'></a>
+ ## Description
+ this is an application to generate a professional readme
   <a name='usefaq'></a>
-  ## Usage
-  With all dependencies installed, run the script.js file in a Node.js enabled terminal instance, answer the prompts, and move the resulting file from the output folder into your project repository.
-  
+ ## Usage
+ With all dependencies installed, run the script.js file in a Node.js enabled terminal instance, answer the prompts, and move the resulting file from the output folder into your project repository.
   <a name='install'></a>
-  ## Installation
-  npm i
-
-  <a name='test'></a>
-  ## Testing
-  npm test
-
-  <a name='contributefaq'></a>
-  ## Contributing to This Repo
-  please find the contact to me here in my readme below
-
-  <a name='license'></a>
-  ## License
-
-  Content in this project is governed under the MIT License. 
-  To read the license in its entirety, click here: [MIT](./LICENSE)
-
-
+ ## Installation
+ npm i
+ 
+ <a name='test'></a>
+ ## Testing
+ npm test
+ 
+ <a name='contributefaq'></a>
+ ## Contributing to This Repo
+ please find the contact to me here in my readme below
+ 
+ <a name='license'></a>
+ ## License
+ 
+ Content in this project is governed under the MIT License.
+ To read the license in its entirety, click here: [MIT](./LICENSE)
+ 
+ 
 <a name='questions'></a>
 ## Questions? Please contact me here:
 For additional questions, please contact [kattheswagger1122](https://github.com/kattheswagger1122) at katrina112298@gmail.com
-
-
+ 
+ 
+ 
+ 
 
